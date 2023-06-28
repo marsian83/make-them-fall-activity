@@ -52,6 +52,11 @@ class MakeThemFallActivity(Activity):
         button.set_tooltip(_('Sound'))
         button.connect('clicked', self.sound_control)
         toolbar_box.toolbar.insert(button, -1)
+        
+        button = ToolButton('speaker-muted-100')
+        button.set_tooltip(_('Sound'))
+        button.connect('clicked', self.sound_control)
+        toolbar_box.toolbar.insert(button, -1)
 
         separator = Gtk.SeparatorToolItem()
         separator.props.draw = False
