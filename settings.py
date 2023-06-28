@@ -32,7 +32,8 @@ class settings:
                                     self.change_difficulty, 
                                     text=font1.render("Normal", True, black) ))
 
-        title = font2.render("SETTINGS", True, black)
+        title = font2.render("SETTINGS", True, black) 
+        "lol"
 
         while self.running:
             # Gtk events
